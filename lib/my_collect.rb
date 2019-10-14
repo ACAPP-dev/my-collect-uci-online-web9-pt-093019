@@ -1,6 +1,6 @@
 def my_collect (array)
   i = 0
-  return_array[]
+  return_array = []
   while i < array.length do
     return_array << yield(array[i])
     i += 1
